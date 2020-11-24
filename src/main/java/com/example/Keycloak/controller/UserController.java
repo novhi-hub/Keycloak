@@ -41,7 +41,7 @@ public class UserController {
     private String realm = "Tlab";
     private String clientId = "vms-authentication";
     private String role = "user";
-    private String clientSecret = "3f442024-856b-4586-8f83-4f22d21b0631";
+    private String clientSecret = "";
 
     @PostMapping(path = "/create")
     public ResponseEntity<?> createUser(@RequestBody UserRequestBody userDTO) {
